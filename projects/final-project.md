@@ -9,14 +9,16 @@ You'll include an analysis and visualization element in your project.
 You'll have to use at least one significant technology or pattern that we haven't covered in homework. Some examples of variable difficulty could include:
 * Using Big Query
 * Making an interactive dashboard in Streamlit
-* Making an application or dashboard in FastAPI (or Flask)
+* Making an application, dashboard, or data API in FastAPI
 * Making and deploying a dashboard as a static site
-* Using the ORM part of SQLAlchemy
+* Using the SQL Model ORM or the ORM part of SQLAlchemy
 * Use a faster library (CUDF, Polars, Dask, Spark, etc.) to process larger datasets
 * Take advantage of Postgres' Full-text search
 * Take advantage of Postgres' GIS capabilities
 * Take advantage of Postgres' Vector Search
 * Take advantage of Postgres' JSON
+* Try LanceDB for vector search
+* Try DuckDB for relational data
 * Schedule scraper to run periodically by deploying
 * Use an ML model to make predictions on demand
 * Using a noSQL database
@@ -33,7 +35,7 @@ You’ll use a public GitHub repository to organize, record and document your wo
 * You'll use a new technology or pattern to perform meaningful tasks
 * You'll discuss your choice with me to set group-specific goals which you'll be graded according to
 
-## The Report in README.md - (15 points)
+## The Report in README.md - (20 points)
 
 The report should cover your data source and your analysis.  
 
@@ -53,7 +55,7 @@ Requirements for reporting about the data:
 * Limitations of the data must be clearly outlined
 * A discussion of extensions of data that would be required to improve the analysis should be included
 
-## Reproducibility - (20 points)
+## Reproducibility - (10 points)
 
 Your work must be reproducible. This means that anyone should be able to follow your instructions to run your code on your data and get the same results you do.  
 
@@ -65,7 +67,7 @@ Requirements for reproducibility:
 * Data should be included in the repository if the dataset is small enough, otherwise, instructions for downloading the datasets and placing them in the right locations are required
 * Your code should have as few entry points as reasonable. I.e. rather than requiring `data_cleaning_step_1.py`, `data_cleaning_step_2.py`, etc., to be run, have simply `data_cleaning.py`
 
-## Code Quality - (15 points)
+## Code Quality - (20 points)
 
 Requirements for formatting:
 * Your code should use double and single quotes consistently
@@ -104,7 +106,7 @@ Requirements for the repo:
 ## Presentation - (5 points)
 
 Requirements for the presentation:
-* You should try to test your setup in <location TBD> before the day of presentations if possible, problems during the setup will cut into your presentations and affect your grade.
+* You should try to test your setup in  <location TBD> before the day of presentations if possible, problems during the setup will cut into your presentations and affect your grade.
 * The presentation must be around 10 minutes – we’ll cut you off if it isn’t.
 * The presentation should primarily focus on your goal, methodology, findings, limitations and potential extensions.
 * You should limit your discussion of packages or techniques, whether related to the code or otherwise, to things that your classmates would not already know either from in class or in their training as Economists.
